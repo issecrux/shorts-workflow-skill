@@ -3,7 +3,9 @@
 Total skor: **100 poin** (9 kriteria positif + 1 penalti).
 
 Gunakan rubric ini di Step 2 (Scene Candidates) untuk memberi skor pada
-tiap kandidat scene 15–40 detik.
+tiap **candidate story unit** (sequence sumber sepanjang 60–180 detik
+yang berisi apex hook 5–20 detik di dalamnya). Final short tetap 80–110
+detik — lihat SKILL.md untuk definisi lengkap.
 
 ---
 
@@ -11,7 +13,7 @@ tiap kandidat scene 15–40 detik.
 
 | # | Kriteria | Bobot | Pertanyaan diagnostik |
 |---|---|---|---|
-| 1 | **Immediate Hook** | 0–20 | Apakah 3 detik pertama scene ini bisa langsung memicu pertanyaan / visual shock? |
+| 1 | **Immediate Hook** | 0–20 | Apakah apex hook segment (5–20s) di dalam kandidat bisa langsung memicu pertanyaan / visual shock di 3 detik pertama short? |
 | 2 | **Understandable Without Context** | 0–15 | Penonton US tanpa pernah nonton show ini akan paham? |
 | 3 | **High Stakes / Mystery** | 0–15 | Ada nyawa, hubungan, kebebasan, atau kebenaran yang dipertaruhkan? |
 | 4 | **Visual Clarity Potential** | 0–10 | Apakah visual cukup jelas (wajah, lokasi, aksi) tanpa butuh banyak insert? |
@@ -30,13 +32,16 @@ Total = (1+2+3+4+5+6+7+8+9) - |Platform Risk Penalty|.
 
 ### 1. Immediate Hook (0–20)
 
+Nilai berdasarkan **apex hook segment** di dalam kandidat (5–20 detik
+yang akan dipakai sebagai cold open di Step 4).
+
 | Skor | Indikator |
 |---|---|
-| 18–20 | Visual shock + pertanyaan implisit dalam 1.5 detik. Tidak butuh teks tambahan untuk paham urgensi. |
+| 18–20 | Visual shock + pertanyaan implisit dalam 1.5 detik dari awal apex hook segment. Tidak butuh teks tambahan untuk paham urgensi. |
 | 14–17 | Hook visual jelas, tapi butuh 1 baris VO untuk landing. |
-| 10–13 | Hook ada tapi lambat (3–5s buildup). |
-| 5–9 | Setup-heavy. Penonton kemungkinan swipe sebelum hook landing. |
-| 0–4 | Tidak ada hook. Pembukaan flat. |
+| 10–13 | Hook ada tapi lambat (3–5s buildup) — apex hook terlalu panjang untuk 9:16 attention span. |
+| 5–9 | Apex hook lemah. Penonton kemungkinan swipe sebelum landing. |
+| 0–4 | Tidak ada apex hook segment yang teridentifikasi. |
 
 ### 2. Understandable Without Context (0–15)
 

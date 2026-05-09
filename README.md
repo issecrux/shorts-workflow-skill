@@ -37,14 +37,14 @@ J. CapCut Editing Checklist
 
 ## Quick Start
 
-### 1. Sebagai Skill di MoClaw / OpenClaw
+### 1. Sebagai Skill di Agent Orchestrator
+
+Load `shorts-workflow` skill, lalu beri SRT/transcript sebagai input.
+Format request platform-neutral:
 
 ```
-task(
-  category="creative-writing",
-  load_skills=["shorts-workflow"],
-  prompt="Buatkan recap commentary short dari .srt berikut (target 90 detik): [paste .srt]"
-)
+Load shorts-workflow skill, then provide SRT/transcript as input.
+Target: 90s short. Output: full A–J pipeline.
 ```
 
 ### 2. Manual (LLM apa pun via system prompt)
@@ -57,9 +57,9 @@ sebagai user input.
 Skill mendukung permintaan parsial. Contoh:
 
 ```
-Pakai skill shorts-workflow. Aku sudah punya scene pilihan
-(timestamp 00:12:35–00:13:50). Tolong buatkan VO script + subtitle plan
-saja. Show: fictional crime drama.
+Pakai skill shorts-workflow. Aku sudah punya story unit pilihan
+(timestamp 00:12:35–00:14:00, ≈85s). Tolong buatkan VO script +
+subtitle plan saja. Show: fictional crime drama.
 ```
 
 ## Struktur Repo

@@ -96,8 +96,8 @@ Contoh repackaging:
 
 ## Workflow Sensitivity Review (di Step 2)
 
-Setiap kandidat scene wajib lewat checklist berikut. Kalau ada jawaban
-"YA" pada check 1–4, beri penalti minimal -3.
+Setiap candidate story unit wajib lewat checklist berikut. Kalau ada
+jawaban "YA" pada check 1–4, beri penalti minimal -3.
 
 1. Apakah scene ini menampilkan kekerasan terhadap kelompok yang
    teridentifikasi (agama, ras, etnis, gender, orientasi)?

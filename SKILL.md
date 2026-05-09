@@ -117,11 +117,32 @@ dokumen Markdown lengkap berisi 10 bagian (A–J) — lihat `examples/sample-out
   inferensi dari isi (mis. "rescue", "investigation").
 
 ### Step 2 — Scene Candidates (Output A)
-Identifikasi 3–6 kandidat segmen 15–40 detik yang berpotensi jadi short.
-Untuk setiap kandidat isi template
-[`templates/scene-candidates.md`](templates/scene-candidates.md):
+Identifikasi 3–6 **candidate story unit** dari sumber. Untuk setiap
+kandidat isi template
+[`templates/scene-candidates.md`](templates/scene-candidates.md).
 
-- timestamp range
+> **Definisi — Candidate Story Unit:**
+> Sebuah sequence dari sumber yang punya cukup struktur naratif untuk
+> berdiri sebagai recap-commentary short standalone. Boleh terdiri dari
+> beberapa subtitle block berurutan, atau sequence yang dikompres dari
+> timestamp berdekatan.
+
+Aturan ukuran kandidat:
+
+- **Source duration kandidat: 60–180 detik** (umumnya). Bukan satu
+  pertukaran dialog pendek.
+- Di dalamnya **harus ada 1 apex hook segment** sepanjang **5–20 detik**
+  yang akan dipakai sebagai cold open (Apex Drop).
+- Kandidat harus punya cukup material untuk arc lengkap: cold open,
+  setup, escalation, twist/reveal, payoff/cliffhanger.
+- **Final short tetap 80–110 detik** — kandidat yang lebih panjang dari
+  itu akan dipotong via KEEP/CUT/GAP di Step 7. Source > short adalah
+  kondisi normal.
+
+Untuk setiap candidate story unit catat:
+
+- timestamp range (full unit, mis. `00:12:30 – 00:14:45`)
+- apex hook segment di dalamnya (mis. `00:14:05 – 00:14:18`)
 - scene summary (1–2 kalimat)
 - category (dari daftar scene universal di atas, atau `other: <label>`)
 - hook potential

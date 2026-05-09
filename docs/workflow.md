@@ -44,19 +44,37 @@ sekuensial, tapi step 5 dan 6 boleh diparalelkan setelah step 4 selesai.
 
 ## Step 2 — Scene Candidates (Output A)
 
-**Tujuan:** Identifikasi 3–6 segmen kandidat yang berpotensi jadi short.
+**Tujuan:** Identifikasi 3–6 **candidate story unit** yang berpotensi
+jadi short.
+
+**Definisi — Candidate Story Unit:** sebuah sequence dari sumber yang
+punya cukup struktur naratif untuk berdiri sebagai recap-commentary
+short standalone. Boleh terdiri dari beberapa subtitle block berurutan,
+atau sequence yang dikompres dari timestamp berdekatan.
 
 **Input:** Hasil parse dari Step 1.
 
 **Cara memilih kandidat:**
 
 1. Cari "peak moments" — perubahan stakes, reveal, ledakan emosi, momen
-   diam yang berat.
-2. Tiap kandidat berdurasi 15–40 detik (sumber). Bukan satu subtitle
-   line.
-3. Beri 1–2 kalimat ringkasan scene.
-4. Klasifikasikan ke salah satu **kategori scene universal** (lihat
+   diam yang berat. Itu jadi anchor.
+2. Perluas dari peak moment ke kiri (untuk konteks setup) dan ke kanan
+   (untuk payoff) sampai dapat **sequence sepanjang 60–180 detik di
+   sumber**. Jangan berhenti di satu pertukaran dialog pendek.
+3. Pastikan di dalam sequence itu ada **1 apex hook segment 5–20 detik**
+   — kandidat tunggal yang paling tegang/fatal/membingungkan, yang
+   nanti akan jadi cold open di Step 4.
+4. Kandidat harus punya cukup material untuk arc lengkap: cold open,
+   setup, escalation, twist/reveal, payoff/cliffhanger. Jika tidak,
+   kandidat tersebut belum berdiri sendiri — perluas range atau gabung
+   dengan sequence berdekatan.
+5. Beri 1–2 kalimat ringkasan scene.
+6. Klasifikasikan ke salah satu **kategori scene universal** (lihat
    SKILL.md). Boleh `other: <label>` jika tidak cocok.
+
+**Catatan ukuran:** Source duration kandidat (60–180s) **lebih panjang**
+dari final short (80–110s). Itu disengaja — Step 7 (KEEP/CUT/GAP) akan
+memangkas filler dan VO Step 5 menggantikan dialog yang dipotong.
 
 **Scoring:** Pakai rubric di
 [`scoring-rubric.md`](scoring-rubric.md). Total 100 dengan penalti
@@ -64,12 +82,15 @@ Platform Risk -10..0.
 
 **Output:** Tabel mengikuti
 [`templates/scene-candidates.md`](../templates/scene-candidates.md).
+Cantumkan **dua kolom timestamp**: full unit range + apex hook segment.
 
 **Tips kualitas:**
 
-- Jangan pilih scene yang butuh konteks lebih dari 1 kalimat untuk
+- Jangan pilih kandidat yang butuh konteks lebih dari 1 kalimat untuk
   dimengerti.
-- Jangan beri skor tinggi pada scene yang hanya "lucu" tanpa stakes.
+- Jangan beri skor tinggi pada kandidat yang hanya "lucu" tanpa stakes.
+- Jangan definisikan kandidat sebagai satu pertukaran dialog 15–30
+  detik — itu apex hook segment, bukan story unit.
 - Skor ≥85 = Grade A. Skor 70–84 = Grade B (butuh VO kuat). 55–69 =
   Grade C (lemah). <55 = Reject.
 

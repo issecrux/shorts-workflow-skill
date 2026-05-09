@@ -208,15 +208,16 @@ auto-cut script.
 
 ## Integrasi
 
-### MoClaw / OpenClaw
+### Agent Orchestrator (platform-neutral)
 
 ```
-task(
-  category="creative-writing",
-  load_skills=["shorts-workflow"],
-  prompt="[user request + .srt]"
-)
+Load shorts-workflow skill, then provide SRT/transcript as input.
+[paste .srt + opsional: target durasi, judul show, override default]
 ```
+
+Skill ini load-once-and-execute — orchestrator yang men-trigger pipeline
+Step 1–10. Tidak ada dependency ke kategori task tertentu di host
+platform.
 
 ### Standalone (LLM apa pun)
 

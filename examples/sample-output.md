@@ -13,41 +13,46 @@
 
 ## A. Scene Candidates
 
-| # | Timestamp Range | Scene Summary | Category | Hook Potential | Emotional Stakes | Visual Potential | Score | Grade | Reason |
-|---|---|---|---|---|---|---|---|---|---|
-| 1 | `00:00:42,200 – 00:01:23,500` | Detective catches Hale knowing the unreleased time of death; pressure mounts to a "lawyer" demand | crime / investigation | Visual: Hale freezes on a slip he didn't notice | Stakes naik berlapis: alibi runtuh, foto muncul | Two-shot interrogation, expressive faces | 84 | B | Backup — apex kuat tapi setup heavy |
-| 2 | `00:01:30,200 – 00:02:08,000` | Detective reveals the victim is Hale's biological sister he never knew | crime / investigation + emotional reveal | Reveal class: identity twist | Family / parent-child stakes via adoption | Letter + DNA shot, close-up reaction | 91 | A | **Selected** — twist landing bersih + emotional pivot |
-| 3 | `00:02:08,500 – 00:02:48,000` | Hale admits he was at the trailhead and saw a man leaving with a bag | hidden motive / shocking discovery | Hook: "I went to meet her" | Witness regret, missed encounter | Memory-dialogue mostly, low visual variety in source | 78 | B | Backup — payoff bagus tapi visual tipis |
-| 4 | `00:02:48,500 – 00:03:06,000` | "Two minutes ago" line — Hale realizes who she was just now, becomes only witness | emotional reveal | Apex closer | Devastating regret | Tight close-up only | 79 | B | Bagus untuk ending, tidak cukup berdiri sendiri |
-| 5 | `00:00:01,000 – 00:00:31,500` | Opening exchange: detective frames it as routine, Hale denies knowing victim | crime / investigation | Lemah, slow-burn | Stakes belum jelas | Standard two-shot | 58 | C | Reject — Apex Drop tidak ada |
+> Setiap baris adalah **candidate story unit** (60–180s sumber) dengan
+> apex hook segment di dalamnya (5–20s, akan jadi cold open). Final
+> short tetap 80–110s.
 
-**Catatan Platform Risk**: scene 1–4 menyentuh tema kematian dan adopsi.
-Penalti -2 sudah dimasukkan ke skor untuk menghindari frame eksploitatif.
-Tidak ada graphic injury / mass casualty / kelompok agama / etnis yang
-terancam, jadi penalti tidak melebihi -3.
+| # | Story Unit Range | Apex Hook Segment | Summary | Category | Hook | Emotion | Visual | Score | Grade | Reason |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | `00:00:01,000 – 00:01:23,500` (≈82s) | `00:00:42,200 – 00:00:48,500` (≈6s — "the paper didn't say" slip) | Routine interrogation cracks when Hale knows the unreleased time of death; pressure escalates to a "lawyer" demand | crime / investigation | Apex slip strong, freeze-able | Stakes naik berlapis tapi belum emotional payoff | Two-shot interrogation, expressive faces | 82 | B | Backup — apex kuat, payoff masih flat |
+| 2 | `00:00:24,700 – 00:02:08,000` (≈103s) | `00:00:42,200 – 00:00:53,000` (≈11s — slip + silence) | Traffic cam evidence → slip-up → detective reveals the victim is Hale's biological sister he never knew | crime / investigation + emotional reveal | Apex slip kuat, twist landing di paruh kedua unit | Tinggi — family / parent-child stakes via adoption | Two-shot freeze + traffic cam still + letter insert + close-up reaction | 91 | A | **Selected** — apex visual kuat + arc lengkap + emotional pivot |
+| 3 | `00:01:30,200 – 00:03:06,000` (≈96s) | `00:02:53,000 – 00:02:59,000` (≈6s — "two minutes ago") | Family reveal → Hale confesses he saw the killer leave the trailhead and didn't know it was murder | crime + emotional reveal | Witness twist + emotional collapse | Devastating regret | Reconstruction insert potensial, lainnya talky | 84 | B | Backup — overlap dengan #2, payoff lebih dalam tapi visual tipis di paruh kedua |
+| 4 | `00:00:01,000 – 00:01:00,000` (≈59s) | tidak ada apex segment yang jelas | Opening exchange: detective frames it as routine, Hale denies knowing victim | crime / investigation | Lemah, slow-burn | Stakes belum jelas | Standard two-shot | 56 | Reject | Reject — di bawah 60s minimum + apex hook tidak teridentifikasi |
 
-**Total kandidat**: 5. **Grade A**: 1 (#2). **Grade B**: 3. **Reject**: 1.
+**Catatan Platform Risk**: kandidat 1–3 menyentuh tema kematian dan
+adopsi. Penalti -2 sudah dimasukkan ke skor untuk menghindari frame
+eksploitatif. Tidak ada graphic injury / mass casualty / kelompok agama
+/ etnis yang terancam, jadi penalti tidak melebihi -3.
+
+**Total kandidat**: 4. **Grade A**: 1 (#2). **Grade B**: 2. **Reject**: 1.
 
 ---
 
 ## B. Best Scene
 
-- **Chosen timestamp range**: `00:01:30,200 – 00:02:08,000`
-  (sumber utama; akan ditambah cold open dari scene 1 dan payoff dari
-  scene 3–4)
-- **Why this scene wins**:
+- **Chosen story unit range**: `00:00:24,700 – 00:02:08,000` (≈103s sumber)
+- **Apex hook segment**: `00:00:42,200 – 00:00:53,000` (≈11s — slip + silence; akan jadi cold open)
+- **Why this story unit wins**:
   - Skor: 91 (Grade A).
-  - Faktor utama: identity twist landing tanpa butuh konteks luar; emotional
-    pivot kuat; visual cukup (insert letter + close-up reaction).
-  - Alternatif yang dikalahkan: scene #1 (setup heavy), #3 dan #4 (payoff
-    bagus tapi visual tipis sendirian).
-- **Core conflict**: Detective vs. evasive witness — yang ternyata adalah
-  saudara biologis korban yang tidak ia kenal.
+  - Faktor utama: identity twist landing tanpa butuh konteks luar;
+    emotional pivot kuat; visual cukup (traffic cam still + letter
+    insert + close-up reaction); arc lengkap dalam ≈103s.
+  - Alternatif yang dikalahkan: #1 (setup heavy, payoff masih flat), #3
+    (overlap dengan #2 + visual tipis di paruh kedua), #4 (terlalu
+    pendek + tidak ada apex).
+- **Core conflict**: Detective vs. evasive witness — yang ternyata
+  adalah saudara biologis korban yang tidak ia kenal.
 - **Core mystery**: Why does this man know the unreleased time of death?
-- **Emotional payoff**: Dia menemukan ia punya saudara — dua menit setelah
-  saudara itu mati, dan setelah ia melihat pelakunya pergi.
-- **Ideal duration**: 95 detik. Cukup untuk Apex Drop + setup ringkas +
-  twist berlapis + emotional payoff, tanpa melar.
+- **Emotional payoff**: Dia menemukan ia punya saudara — dua menit
+  setelah saudara itu mati, dan setelah ia melihat pelakunya pergi
+  (dipinjam dari story unit #3 sebagai cliffhanger).
+- **Ideal final duration**: 95 detik. Cukup untuk Apex Drop + setup
+  ringkas + twist berlapis + emotional payoff, tanpa melar.
 
 ---
 
@@ -55,11 +60,11 @@ terancam, jadi penalti tidak melebihi -3.
 
 | Beat | Window | Source Timestamp | Function | Notes |
 |---|---|---|---|---|
-| Cold open (Apex Drop) | 0–4s | `00:00:42,200 – 00:00:48,500` (slip moment) | Hook visual: Hale freezes on the line "The paper didn't say" | Freeze frame on his face, single VO line |
-| Setup | 4–22s | `00:00:01,000 – 00:00:31,500` (compressed) + `00:00:24,700 – 00:00:31,500` | Establish: routine interview, traffic cam puts him at the scene | Pakai 2 visual cuts saja, sisanya VO |
-| Escalation | 22–55s | `00:01:00,700 – 00:01:23,500` | Photograph reveal → number on the back → "I want a lawyer" | Tight cuts, freeze pada photo |
-| Twist / Reveal | 55–85s | `00:01:30,200 – 00:01:57,500` | Letter, brother, 31 years, DNA, adoption question | Insert dari kertas + close-up Hale |
-| Payoff / Cliffhanger | 85–95s | `00:02:14,500 – 00:02:48,000` | "I went there. There was a man limping." → "Two minutes ago." | Cross-fade ke black, hold |
+| Cold open (Apex Drop) | 0–4s | `00:00:42,200 – 00:00:48,500` (slip moment) | Hook visual: Hale freezes on the line "The paper didn't say" | Freeze frame on his face, single VO line. Apex hook segment dari Best Scene. |
+| Setup | 4–22s | `00:00:24,700 – 00:00:38,500` (traffic cam + jog/drive contradiction) | Establish: traffic cam puts him at the scene 6:42 a.m. | Insert traffic cam still + two-shot. Sisa konteks via VO. |
+| Escalation | 22–55s | `00:01:00,700 – 00:01:23,500` | Photograph reveal → number on the back → "I want a lawyer" | Tight cuts, freeze pada photo. |
+| Twist / Reveal | 55–85s | `00:01:30,200 – 00:01:57,500` | Letter, brother, 31 years, DNA, adoption question | Insert dari kertas + close-up Hale. |
+| Payoff / Cliffhanger | 85–95s | `00:02:14,500 – 00:02:24,500` + `00:02:53,000 – 00:02:59,000` (borrow dari story unit #3) | "I went there. There was a man limping." → "Two minutes ago." | Cross-fade ke black, hold. |
 
 ---
 
@@ -122,7 +127,7 @@ terancam, jadi penalti tidak melebihi -3.
 |---|---|---|---|---|---|
 | B01 | V01 | `00:00:42,200 – 00:00:44,500` | Freeze on Hale face — caught | Freeze + zoom-in | Slow |
 | B02 | V02 | `00:00:50,000 – 00:00:53,000` | Wide shot of interview room, silence | Cross-fade | Slow |
-| B03 | V03 | `00:00:01,000 – 00:00:04,200` | Establish: detective greets at door | Hard cut | Medium |
+| B03 | V03 | `00:00:24,700 – 00:00:28,000` | Establish: traffic cam still over intersection sign | Hard cut | Medium |
 | B04 | V04 | `00:00:24,700 – 00:00:31,500` | Insert: traffic cam still + intersection sign | Hard cut + match cut to clock | Fast |
 | B05 | V05 | `00:00:31,700 – 00:00:35,200` | Hale shrugs | Hard cut | Fast |
 | B06 | V06 | `00:00:35,400 – 00:00:38,500` | Detective leans forward | Hard cut | Fast |
@@ -152,8 +157,7 @@ terancam, jadi penalti tidak melebihi -3.
 
 | Source Start | Source End | Reason |
 |---|---|---|
-| `00:00:01,000` | `00:00:04,200` | Establish: detective greets Hale |
-| `00:00:24,700` | `00:00:31,500` | Traffic cam reveal |
+| `00:00:24,700` | `00:00:31,500` | Traffic cam reveal (start of chosen story unit) |
 | `00:00:31,700` | `00:00:38,500` | Jog/drive contradiction |
 | `00:00:42,200` | `00:00:53,000` | Apex Drop slip + silence |
 | `00:01:00,700` | `00:01:23,500` | Photograph reveal sampai "I want a lawyer" |
@@ -162,13 +166,14 @@ terancam, jadi penalti tidak melebihi -3.
 | `00:02:33,700` | `00:02:37,000` | Drive home, denial |
 | `00:02:53,000` | `00:02:59,000` | "Two minutes ago" emotional close |
 
-Total KEEP ≈ 78 detik di sumber.
+Total KEEP ≈ 98 detik di sumber. Setelah dipasangkan dengan VO + jeda
+dramatik di freeze beats, final short turun ke ≈95 detik.
 
 ### CUT
 
 | Source Start | Source End | Reason to Cut |
 |---|---|---|
-| `00:00:04,500` | `00:00:24,500` | Slow lead-in dialogue, bisa dirangkum 1 line VO |
+| `00:00:01,000` | `00:00:24,500` | Slow lead-in dialogue (di luar story unit), tidak dipakai |
 | `00:00:38,700` | `00:00:42,000` | Filler exchange, sudah tertutup B07 |
 | `00:00:53,200` | `00:01:00,500` | Dialog konfirmasi, redundan |
 | `00:01:55,000` | `00:02:14,500` | Pacing dip — VO V18→V19 yang menjembatani |
