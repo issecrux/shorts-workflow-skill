@@ -1,0 +1,147 @@
+1
+00:00:01,000 --> 00:00:04,500
+So I've been testing this new AI coding tool for the past two weeks
+
+2
+00:00:04,500 --> 00:00:08,200
+and honestly, it completely changed how I write code.
+
+3
+00:00:08,200 --> 00:00:12,800
+Before I get into the results, let me give you some context.
+
+4
+00:00:12,800 --> 00:00:17,500
+I'm a full-stack developer, been coding for about seven years now.
+
+5
+00:00:17,500 --> 00:00:22,000
+I mainly work with React and Node, some Python on the side.
+
+6
+00:00:22,000 --> 00:00:26,300
+So when I first heard about this tool, I was skeptical.
+
+7
+00:00:26,300 --> 00:00:30,500
+Like, really skeptical. I've tried a bunch of AI tools before.
+
+8
+00:00:30,500 --> 00:00:34,800
+Most of them just generate boilerplate that you end up rewriting anyway.
+
+9
+00:00:34,800 --> 00:00:39,200
+But this one was different. Let me show you what happened.
+
+10
+00:00:39,200 --> 00:00:44,500
+Day one, I gave it a pretty complex task. Build a REST API with authentication.
+
+11
+00:00:44,500 --> 00:00:49,000
+JWT tokens, role-based access, the whole thing.
+
+12
+00:00:49,000 --> 00:00:53,500
+And it just... did it. Like, correctly. First try.
+
+13
+00:00:53,500 --> 00:00:58,200
+Not just boilerplate. Actual production-quality code with error handling.
+
+14
+00:00:58,200 --> 00:01:03,000
+I spent the next hour just reading through the code, checking for issues.
+
+15
+00:01:03,000 --> 00:01:07,500
+Found maybe two minor things I wanted to change. Two. In an entire API.
+
+16
+00:01:07,500 --> 00:01:12,000
+That would have taken me at least a full day to write from scratch.
+
+17
+00:01:12,000 --> 00:01:16,500
+By day three, I was using it for everything.
+
+18
+00:01:16,500 --> 00:01:21,000
+Refactoring old code, writing tests, even debugging.
+
+19
+00:01:21,000 --> 00:01:25,500
+The debugging part actually blew my mind.
+
+20
+00:01:25,500 --> 00:01:30,000
+I had this bug that I'd been stuck on for three days.
+
+21
+00:01:30,000 --> 00:01:34,500
+Three days of console.log debugging, reading Stack Overflow.
+
+22
+00:01:34,500 --> 00:01:39,000
+I pasted the error and the relevant code, and it found the issue in like ten seconds.
+
+23
+00:01:39,000 --> 00:01:43,500
+It was a race condition in my async middleware chain.
+
+24
+00:01:43,500 --> 00:01:48,000
+Something I probably never would have found on my own.
+
+25
+00:01:48,000 --> 00:01:52,500
+Now here's the thing that actually surprised me the most.
+
+26
+00:01:52,500 --> 00:01:57,000
+After two weeks, my code quality actually got better.
+
+27
+00:01:57,000 --> 00:02:01,500
+Not because the AI wrote better code than me.
+
+28
+00:02:01,500 --> 00:02:06,000
+But because I started learning from the patterns it used.
+
+29
+00:02:06,000 --> 00:02:10,500
+Things like proper error boundaries, more consistent naming.
+
+30
+00:02:10,500 --> 00:02:15,000
+Stuff I knew I should do but was always too lazy to implement.
+
+31
+00:02:15,000 --> 00:02:19,500
+So if you're a developer and you haven't tried these tools yet,
+
+32
+00:02:19,500 --> 00:02:24,000
+I'd say give it two weeks. Not two days. Two weeks.
+
+33
+00:02:24,000 --> 00:02:28,500
+Because the first few days you'll fight with it.
+
+34
+00:02:28,500 --> 00:02:33,000
+But once you learn how to prompt it correctly, it's a game changer.
+
+35
+00:02:33,000 --> 00:02:37,500
+Let me know in the comments if you want me to do a deep dive
+
+36
+00:02:37,500 --> 00:02:42,000
+on exactly how I set it up and the specific prompts I use.
+
+37
+00:02:42,000 --> 00:02:46,500
+Drop a like if this was helpful. See you in the next one.
