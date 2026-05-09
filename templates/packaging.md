@@ -1,149 +1,110 @@
-# Packaging Template
+# Template — I. Packaging
 
-Template untuk title, caption, hashtag, dan CapCut editing checklist.
+Title (YouTube Shorts), caption (TikTok), hashtag set, pinned comment,
+dan Part 2 hook.
 
----
+Default: **English natural untuk US audience, tanpa emoji**, kecuali emoji
+benar-benar menambah daya tarik (max 1 per item).
 
-## Title
+## Format
 
-**Max**: 100 karakter
-
-**Format yang terbukti work:**
-
-| Format | Template | Contoh |
-|--------|----------|--------|
-| Contrast | "[Before] → [After]" | "3 days debugging → 10 seconds with AI" |
-| Question | "Why does [X] happen?" | "Why does nobody talk about this AI trick?" |
-| How-to | "How to [X] in [Y]" | "How to debug 10x faster with one tool" |
-| Listicle | "[N] [things] that [result]" | "3 AI tools that replaced my entire workflow" |
-| Confession | "I [did X] and [unexpected result]" | "I tried AI coding for 2 weeks and here's what happened" |
-| Challenge | "Stop [doing X]" | "Stop writing code from scratch" |
-
-**Rules:**
-- Harus mengandung hook element dari VO script
-- Harus bisa dipahami TANPA menonton video
-- Hindari ALL CAPS (kecuali 1-2 kata untuk emphasis)
-- Jangan janji yang tidak bisa di-deliver (no misleading clickbait)
-
-**Template:**
 ```
-Title: [hook-driven title, max 100 chars]
-```
+### Packaging
 
----
+#### 10 YouTube Shorts Titles
+(English, US-natural, ≤ 60 chars idealnya, < 100 chars max)
 
-## Caption
+1. <title>
+2. <title>
+...
+10. <title>
 
-**Max**: 300 karakter (TikTok). Instagram Reels dan YouTube Shorts lebih flexible.
+#### 5 TikTok Captions
+(English, hook-first, 1–2 kalimat, 1 emoji optional)
 
-**Struktur:**
-```
-Line 1: [Expanded hook atau value proposition]
-Line 2: [Context atau supporting detail]
-Line 3: [CTA — "Follow for more [topic]" atau "Save this for later"]
+1. <caption>
+2. <caption>
+...
+5. <caption>
+
+#### Hashtag Set
+- Broad / discovery: #shorts #fyp #viral
+- Niche genre: #medicaldrama #firstresponders
+- Show-agnostic engagement: #recap #commentary #tvclips
+(adapt per show / genre)
+
+#### Pinned Comment (Idea)
+<satu baris pertanyaan / ajakan diskusi yang tidak provokatif>
+
+#### Part 2 Hook
+<satu kalimat yang membuat orang follow / save untuk part 2>
 ```
 
-**Template:**
+## Aturan
+
+1. **Title (YouTube Shorts)**:
+   - Hook-first, langsung ke pertanyaan / stakes.
+   - Hindari ALL CAPS. Sentence case + 1 keyword penting.
+   - Hindari emoji default. Boleh max 1 jika benar-benar menambah daya
+     tarik.
+   - Hindari spammy ("YOU WONT BELIEVE", "JAW DROPPING", "GONE WRONG").
+   - Hindari menyebut nama show secara default — kecuali brand
+     recognition memang tinggi.
+2. **Caption (TikTok)**:
+   - Tone lebih playful daripada YT Shorts, tapi tetap professional.
+   - Hook di kalimat pertama, CTA implisit.
+   - Boleh emoji max 1.
+3. **Hashtag**:
+   - 5–10 hashtag.
+   - Mix: 2 broad + 3 niche + 2 medium + 1 brand-style.
+   - **Hindari** hashtag yang menargetkan kelompok agama/etnis kecuali
+     konten edukatif eksplisit.
+4. **Pinned Comment**:
+   - Pertanyaan terbuka tentang dilema moral, atau prediksi penonton.
+   - **Tidak** menyalahkan kelompok. **Tidak** provokatif.
+5. **Part 2 Hook**:
+   - Hanya kalau sumber masih punya material yang bisa diangkat.
+   - Tease tanpa spoiler.
+
+## Anti-pattern Title/Caption
+
+- "INSANE!! THIS WILL BLOW YOUR MIND" — spammy.
+- "Doctor LITERALLY had to make this choice" — fake emphasis.
+- "Based on a TRUE story 😱" — terlarang untuk fiksi.
+- "🔥🔥🔥 You won't believe 🔥🔥🔥" — emoji spam.
+- "Christians SHOCKED by what happens" — targets religious group.
+
+## Contoh Mini
+
 ```
-Caption:
-[Line 1 — value prop, max 100 chars]
-[Line 2 — context, max 100 chars]
-[Line 3 — CTA, max 100 chars]
+### Packaging
+
+#### 10 YouTube Shorts Titles
+1. The paramedic froze. Then she heard it.
+2. Two patients. One ambulance. One choice.
+3. She broke protocol. The reason changed everything.
+4. Hidden behind the couch — a second voice.
+5. Routine call. Until she stopped breathing.
+6. The decision she didn't explain.
+7. The clock said three minutes. Then she heard a child.
+8. He said there's no time. She listened anyway.
+9. The second victim no one was looking for.
+10. What stops a paramedic mid-step?
+
+#### 5 TikTok Captions
+1. She broke protocol. The reason changed everything.
+2. Routine call — until she heard the second voice.
+3. Two patients, one ambulance, one impossible choice.
+4. Behind the couch was the part nobody saw.
+5. Sometimes the right call is the one you can't explain.
+
+#### Hashtag Set
+#shorts #fyp #medicaldrama #firstresponders #emergency
+#recap #commentary #tvclips #suspense
+
+#### Pinned Comment (Idea)
+"Did she make the right call? Tell me what you would have done."
+
+#### Part 2 Hook
+"In part 2: why her partner stops talking to her."
 ```
-
----
-
-## Hashtags
-
-**Total**: 5-8 hashtags
-
-| Tier | Jumlah | Contoh | Fungsi |
-|------|--------|--------|--------|
-| **Trending/broad** | 2 | #fyp #shorts #viral | Reach/discovery |
-| **Category** | 2 | #coding #tech #developer | Topic clustering |
-| **Niche** | 2-3 | #aitools #devtools #codinglife | Targeted audience |
-| **Branded** (optional) | 1 | #yourbrand | Series/brand recognition |
-
-**Rules:**
-- Jangan lebih dari 8 — terlihat spammy
-- Riset dulu mana yang trending di platform target
-- Niche hashtags > broad hashtags untuk engagement rate
-
-**Template:**
-```
-Hashtags: #tag1 #tag2 #tag3 #tag4 #tag5 #tag6 #tag7 #tag8
-```
-
----
-
-## Posting Time (US Audience)
-
-| Platform | Best Times (EST) | Best Days |
-|----------|------------------|-----------|
-| TikTok | 7-9 AM, 12-1 PM, 7-9 PM | Tue-Thu |
-| YouTube Shorts | 12-3 PM, 5-7 PM | Wed-Fri |
-| Reels | 9-11 AM, 2 PM, 7 PM | Mon, Wed, Fri |
-
----
-
-## CapCut Editing Checklist
-
-Checklist praktis untuk eksekusi edit di CapCut (atau editor sejenis).
-
-### Import & Setup
-- [ ] Import source video ke project baru
-- [ ] Set rasio 9:16 (1080x1920)
-- [ ] Set framerate 30fps minimum
-
-### Cuts & Timeline
-- [ ] Cut semua KEEP segments sesuai Cut Plan
-- [ ] Arrange segments sesuai urutan di Cut Plan
-- [ ] Hapus semua CUT segments
-- [ ] Insert GAP placeholders (transisi/B-roll/text overlay)
-- [ ] Verify total duration dalam target range
-
-### Transitions
-- [ ] Tambah transisi di setiap GAP point
-- [ ] Pilih transition style (swoosh/dissolve/hard cut)
-- [ ] Transisi duration: 0.3-0.5 detik (jangan lebih)
-
-### Audio
-- [ ] Record/import VO tracks sesuai VO Script
-- [ ] Align VO ke timestamp yang benar
-- [ ] Keep original audio di segment ORIGINAL DIALOG
-- [ ] Mute original audio di segment VO (atau volume 5-10%)
-- [ ] Add background music (10-15% volume)
-- [ ] Normalize audio levels (VO dan dialog harus sama loudness)
-- [ ] Check: tidak ada audio gap/silence > 0.5 detik
-
-### Captions & Text
-- [ ] Generate auto-captions
-- [ ] Review auto-captions untuk akurasi
-- [ ] Style captions: bold, center-bottom, high contrast
-- [ ] Add hook text overlay di 0-3 detik (bold, center, large)
-- [ ] Add section transition text overlays per VO Script
-- [ ] Add end screen text (CTA atau takeaway)
-- [ ] Optional: add key stats/numbers sebagai text overlay
-
-### Visual Polish
-- [ ] Apply zoom/ken-burns pada talking head segments
-- [ ] Quick zoom in pada key moments (punchlines, reveals)
-- [ ] Color grade: consistent across all cuts
-- [ ] Optional: add progress bar di top (retention trick)
-
-### Review
-- [ ] Preview play: full dari awal sampai akhir
-- [ ] Check: hook grabs attention dalam 3 detik pertama?
-- [ ] Check: audio transitions smooth (no pop/click)?
-- [ ] Check: text overlay timing — muncul dan hilang tepat waktu?
-- [ ] Check: total duration OK untuk platform target?
-- [ ] Check: ending feels complete (not abrupt)?
-
-### Export & Upload
-- [ ] Export: 1080x1920, 30fps, H.264, high quality
-- [ ] File size check (< 500MB untuk TikTok, < 256MB untuk Shorts)
-- [ ] Upload ke platform target
-- [ ] Paste title dari Metadata section
-- [ ] Paste caption dari Metadata section
-- [ ] Add hashtags dari Metadata section
-- [ ] Schedule posting sesuai Best Posting Time

@@ -1,103 +1,98 @@
-# VO Script Template
+# Template — D. VO Narration Script
 
-Template untuk menulis voiceover script berdasarkan scene selection dan cut plan.
+Tulis VO third-person narrator dalam **English natural untuk US audience**.
+Target 160–230 kata untuk 80–110 detik. Setiap baris bernomor (V01, V02, …)
+untuk linking ke Visual Beat Map (E).
 
-## Struktur
-
-```markdown
-[TIMESTAMP] SECTION_NAME
-TYPE: VO / ORIGINAL DIALOG / MIX
----
-[Teks yang akan diucapkan/dipertahankan]
-```
-
-## Section Flow
-
-### Hook (0-3 detik)
-
-Pilih SATU format:
-
-| Format | Contoh | Kapan Digunakan |
-|--------|--------|----------------|
-| **Question** | "Have you ever wondered why...?" | Topik yang banyak orang penasaran |
-| **Bold claim** | "This changed everything about how I work." | Ada proof/evidence yang kuat |
-| **Contrast** | "3 days to find the bug. 10 seconds with AI." | Ada before/after yang dramatis |
-| **Challenge** | "Stop doing [X]. Here's why." | Counter-intuitive advice |
-| **Story start** | "So yesterday I got this message..." | Narrative-driven content |
-
-Rules:
-- Max 15 kata
-- Tidak boleh ada setup — langsung ke point
-- Harus bisa berdiri sendiri tanpa visual
-
-### Setup (3-15 detik)
-
-- Konteks MINIMAL yang diperlukan viewer
-- Jawab: "Kenapa saya harus peduli?" dalam 2-3 kalimat
-- Jangan over-explain — biarkan rasa penasaran bekerja
-
-### Core (15-40 detik)
-
-- Isi utama — setiap kalimat harus menambah value
-- Gunakan numbered points jika tutorial: "First...", "Second...", "The key thing..."
-- Variasi pace: mix VO dengan original dialog
-
-### Payoff / CTA (40-60 detik)
-
-Pilih SATU:
-
-| Type | Format | Contoh |
-|------|--------|--------|
-| **Takeaway** | Satu kalimat yang bisa di-screenshot | "Give it 2 weeks, not 2 days." |
-| **Soft CTA** | Natural next step | "Follow for more [topic] breakdowns." |
-| **Loop CTA** | Reference hook → rewatch | "And that's how 3 days became 10 seconds." |
-| **Cliffhanger** | Promise part 2 | "But wait until you see what happened on day 7." |
-
-## Template
+## Format
 
 ```
-[00:00 - 00:03] HOOK
-TYPE: VO
----
-"[hook text — max 15 kata]"
+### VO Narration Script
 
-[00:03 - 00:04] TRANSITION
-TYPE: GAP
----
-[transition sound/text overlay: "[text]"]
+- Total kata: <jumlah>
+- Estimasi durasi: <detik>
+- Tone: <misal: restrained, suspenseful, third-person>
+- WPM target: ~120 (dengan jeda dramatik)
 
-[00:04 - 00:12] SETUP
-TYPE: VO
----
-"[setup kalimat 1]"
-"[setup kalimat 2]"
-
-[00:12 - 00:27] CORE — SEGMENT A
-TYPE: ORIGINAL DIALOG
----
-Speaker: "[dialog asli yang dipertahankan]"
-
-[00:27 - 00:40] CORE — SEGMENT B
-TYPE: VO
----
-"[VO narration]"
-
-[00:40 - 00:50] PAYOFF
-TYPE: VO
----
-"[payoff/insight text]"
-
-[00:50 - 00:55] CTA
-TYPE: ORIGINAL DIALOG
----
-Speaker: "[CTA dialog]"
+| Line ID | Beat Section | Text (English, US-natural) | Target Duration (s) |
+|---|---|---|---|
+| V01 | Cold open | "She stopped breathing mid-sentence." | 2.5 |
+| V02 | Cold open | "And nobody in the room moves." | 2.5 |
+| V03 | Setup | "It's a routine call. Two paramedics, one apartment, one woman on the floor." | 5.5 |
+| V04 | Setup | "Her partner radios in. The clock starts." | 4.0 |
+| ... | ... | ... | ... |
 ```
 
-## Writing Rules
+Gabungkan semua baris menjadi satu paragraf full-text di bawah tabel
+untuk dipakai talent VO:
 
-1. **Max 15 kata per kalimat** — kalau lebih panjang, pecah
-2. **Bahasa percakapan** — tulis seperti ngobrol, bukan essay
-3. **Hindari jargon** — kecuali audience niche yang paham
-4. **Setiap kalimat = value** — jika hapus kalimat dan narasi masih utuh, hapus
-5. **Read aloud test** — baca keras, jika terasa janggal, rewrite
-6. **Pace variation** — jangan semua VO; mix dengan original dialog untuk authenticity
+```
+### Full VO Script (for reading)
+
+She stopped breathing mid-sentence. And nobody in the room moves.
+It's a routine call. Two paramedics, one apartment, one woman on
+the floor. Her partner radios in. The clock starts. ...
+```
+
+## Aturan
+
+1. **Third-person narrator.** Bukan karakter. Bukan creator.
+2. **Present tense default.** Past tense hanya kalau scene retrospektif.
+3. **Kalimat pendek.** Rata-rata 8–14 kata.
+4. **Jangan menyalin dialog asli yang panjang.** Boleh quote 1 baris
+   pendek (≤8 kata) sangat memorable, tandai dengan kutip.
+5. **Jangan klaim "true story" / "based on real events"** kecuali sumber
+   non-fiksi.
+6. **Jangan mengarang motif/perasaan karakter.** Tetap di permukaan:
+   aksi, reaksi, akibat.
+7. **Hindari kata berlebihan**: "absolutely insane", "literally
+   unbelievable", "you won't believe", "jaw dropping".
+8. **Hindari trigger words** untuk kategori sensitif. Lihat
+   [`docs/platform-sensitivity.md`](../docs/platform-sensitivity.md).
+9. **Word count**: 80s ≈ 160 kata, 95s ≈ 200 kata, 110s ≈ 220–230 kata.
+
+## Anti-pattern
+
+- "This is one of the most insane episodes you'll ever see" — meta
+  comment, hapus.
+- "She had no idea what was about to happen" — tidak bisa dibuktikan dari
+  visual, hapus.
+- "Based on a true story" untuk show fiksi — terlarang.
+- VO yang merangkum dialog 30 detik menjadi 1 baris hambar — tulis ulang
+  dengan stakes yang jelas.
+
+## Contoh Mini
+
+```
+### VO Narration Script
+
+- Total kata: 198
+- Estimasi durasi: ~95 detik
+- Tone: restrained, third-person, present tense
+
+| Line ID | Beat Section | Text | Target (s) |
+|---|---|---|---|
+| V01 | Cold open | "She stopped breathing mid-sentence." | 2.2 |
+| V02 | Cold open | "And nobody in the room moves." | 2.0 |
+| V03 | Setup | "It's a routine call. Two paramedics. One apartment." | 5.0 |
+| V04 | Setup | "A woman on the floor — and a partner radioing for backup." | 4.5 |
+| V05 | Escalation | "Vital signs drop." | 1.8 |
+| V06 | Escalation | "Protocol says: stabilize, transport." | 3.0 |
+| V07 | Escalation | "Her partner says: there's no time." | 3.0 |
+| V08 | Escalation | "She listens. Decides. Moves." | 3.5 |
+| V09 | Twist | "Then she hears it." | 2.0 |
+| V10 | Twist | "A second voice. Behind the couch." | 3.0 |
+| V11 | Twist | "There's a child no one saw." | 3.5 |
+| V12 | Payoff | "Two patients. One ambulance. One choice." | 5.0 |
+| V13 | Payoff | "She doesn't say why she picked." | 4.0 |
+
+### Full VO Script (for reading)
+
+She stopped breathing mid-sentence. And nobody in the room moves.
+It's a routine call. Two paramedics. One apartment. A woman on the
+floor — and a partner radioing for backup. Vital signs drop. Protocol
+says: stabilize, transport. Her partner says: there's no time. She
+listens. Decides. Moves. Then she hears it. A second voice. Behind
+the couch. There's a child no one saw. Two patients. One ambulance.
+One choice. She doesn't say why she picked.
+```
